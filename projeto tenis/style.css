@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #212028;
+}
+
+header{
+    padding: 1% 5%;
+    height: 80px;
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 64px;
+}
+
+.menu-itens img{
+    width:26px;
+}
+
+.menu-itens a{
+    margin-left:30px ;
+}
+
+.content{
+    height: calc(100vh - 80px);
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+   
+}
+
+.left-side h1{
+    font-size: 50px;
+    color:#00c0af;
+    
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-side p,span{
+    color:#fff;
+    margin-bottom: 30px;
+    
+    
+
+}
+
+.left-side a{
+
+    color: white;
+    background-color: #00c0af;
+    width: fit-content;
+    padding: 15px 20px ;
+    border-radius: 5px;
+
+}
+
+.left-side span{
+    font-size: 30px;
+    font-weight: 500px;
+    color: white;
+}
+
+.right-side{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #00c0af ;
+    border-radius: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.left-side a:hover{
+    background-color:#00c0b0e5;
+    
+}
+
+
+

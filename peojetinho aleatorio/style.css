@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-color: lightslategrey;
+}
+
+form{
+
+    display: block;
+    background-color: #fff;
+    width: 370px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.titulo h3{
+
+    text-align: center;
+    color: rgb(50, 50, 50);
+    padding: 40px ;
+
+}
+
+.login input[type="text"], input[type="password"]{
+    
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    transition: 0.15s;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+    
+}
+
+.login input[type="text"]:hover, input[type="password"]:hover{
+    border: 1px solid lightslategrey;
+    
+}
+
+.login input[type="submit"]{
+    width: 100%;
+    padding: 17px;
+    margin-top: 50px;
+    border:none ;
+    background-color: rgb(18, 136, 240);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.15s;
+    font-weight: bold;
+    border-radius: 20px;
+    
+    
+}
+
+.login input[type="submit"]:hover{
+    background-color:rgb(87, 165, 233) ;
+}
+
+.login a{
+
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+    
+}
+
+::placeholder{
+    font-weight: 600;
+    text-align: center;
+
+}
+
+

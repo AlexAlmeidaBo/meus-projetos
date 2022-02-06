@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2020/09/1631.Noodles_Silver_Light-820w-1180h@2xipad.png?w=1000);
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    
+}
+
+.container{
+    
+    width: 700mpx;
+    height: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.glass{
+    
+    background: linear-gradient(135deg, rgb(255, 255, 255,0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}

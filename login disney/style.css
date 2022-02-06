@@ -1,0 +1,50 @@
+@font-face{
+    font-family: "Avenir Roman";
+    src: url(font/avenir-roman.ttf) format(Truetype); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Avenir Roman', sans-serif;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/f20434f2bb0788b570bde7f7189b0e2cfd1209a5a5d90f4e032acebc816c5076/original);
+    background-size: cover;
+    height: 100vh;
+}
+
+.cabecalho{
+    display:flex;
+    
+    
+}
+
+.login{
+   
+    
+    
+
+}
+
+.conteudo{
+    background-color: #fff;
+    display:flex;
+    height: calc(100vh - 20px);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo-combo{
+    height: 300px;
+}
+
+
+
+
+
+
+
+
