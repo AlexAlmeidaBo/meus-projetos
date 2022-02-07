@@ -1,46 +1,131 @@
 @font-face{
-    font-family: "Avenir Roman";
-    src: url(font/avenir-roman.ttf) format(Truetype); 
+    font-family: 'avenir';
+    src:url(avenir-roman.ttf) format(truetype);
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration:none;
 }
 
 body{
-    font-family: 'Avenir Roman', sans-serif;
+    font-family: 'avenir', sans-serif;
     background-image: url(https://cnbl-cdn.bamgrid.com/assets/f20434f2bb0788b570bde7f7189b0e2cfd1209a5a5d90f4e032acebc816c5076/original);
     background-size: cover;
     height: 100vh;
+    padding: 0 62px;
+    letter-spacing: .3px;
 }
 
 .cabecalho{
-    display:flex;
-    
+    display: flex;
+    padding:5px;
+    justify-content: right;
     
 }
 
 .login{
-   
-    
-    
+   justify-content: right;
+   color: #f9f9f9;
+   border: 1px solid #f9f9f9;
+   margin: 5px;
+   padding: 15px 16px;
+   text-transform: uppercase;
+   font-size: 18px;
+   background-color: #000000cc;
+   border-radius: 6px;
+   transition: all .3s;
+}
 
+.login:hover{
+    background-color: #f9f9f9;
+    color: #040714;
+    border-color: transparent;
 }
 
 .conteudo{
-    background-color: #fff;
     display:flex;
-    height: calc(100vh - 20px);
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.conteudo-principal{
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 640px;
+    align-items: center;
+}
+.titulo{
+    color: #f9f9f9fa;
+    font-size:2vw;
+    line-height: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.imagem{
+    display: block;
+    width: 65%;
+    height: auto;   
+    margin-bottom: 35px;
+
 }
 
 .conteudo-combo{
-    height: 300px;
+    width:100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
 }
 
+.conteudo-assinatura{
+    color: #f9f9f9;
+    background-color: #0063e5;
+    border: none;
+    padding: 26px 33px ;
+    margin-bottom: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-weight:lighter;
+    font-size: 18px;
+    font-family: 'Avenir', sans-serif;
+    letter-spacing: 1px;
+    transition: all .5s;
+}
+
+.conteudo-assinatura:hover{
+    background: #016cf9;
+}
+
+.conteudo-paragrafo{
+    font-size: 12px;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 22px;
+    margin-bottom: 23px;
+}
+
+.conteudo-assinatura-secundaria{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #F9f9f9;
+    text-decoration: underline;
+}
+
+.span-secundario{
+    font-size: 18px;
+    line-height: 28px;
+    color: #c0c0c0;
+}
 
 
 
