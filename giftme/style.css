@@ -15,6 +15,7 @@ body{
     display: flex;
     padding: 0 8%;
     align-items: center;
+    justify-content: space-around;
     color: black; 
     height: 70px;
     gap: 80px;
@@ -49,10 +50,10 @@ nav ul li{
     margin-left: 80px;  
 }
 
-nav ul li a{
+li a{
     text-decoration: none;
     color:#57313b;
-    transition: 0.2s;
+    transition: .2s;
 }
 nav ul li a:hover{
     border-bottom: 3px solid #fd510c;
@@ -88,6 +89,7 @@ nav ul li a:hover{
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
+    transition: .3s;
 }
 
 .left a:hover{
